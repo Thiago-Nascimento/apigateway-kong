@@ -1,0 +1,29 @@
+version: "3.7"
+
+networks:
+  kong-net:
+    name: kong-net
+    driver: bridge   
+
+services:
+  api-produtos:
+    image: vimagick/json-server
+    command: -H 0.0.0.0 -p 3000 -w produtos.json
+    networks:
+      - kong-net
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/data
+    restart: always
+
+  api-produtos2:
+    image: vimagick/json-server
+    command: -H 0.0.0.0 -p 3030 -w produtos2.json
+    networks:
+      - kong-net
+    ports:
+      - "3030:3030"
+    volumes:
+      - ./data:/data
+    restart: always

@@ -1,0 +1,9 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Notebook Gamer",
+      "preco": 10199.90
+    }
+  ]
+}
