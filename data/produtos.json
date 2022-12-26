@@ -1,0 +1,29 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Notebook Gamer",
+      "preco": 10199.90
+    },
+    {
+      "id": 2,
+      "nome": "Cadeira Gamer",
+      "preco": 1199.90
+    },
+    {
+      "id": 3,
+      "nome": "Mousepad RGB",
+      "preco": 110.90
+    },
+    {
+      "id": 4,
+      "nome": "Teclado Mecânico",
+      "preco": 209.90
+    },
+    {
+      "id": 5,
+      "nome": "Monitor 240Hz",
+      "preco": 2099.90
+    }
+  ]
+}
